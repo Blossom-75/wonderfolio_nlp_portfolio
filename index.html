@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ef9ac8">
+  <title>Portfolio | Activity Vending Machine</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <br><br>
+  <section class="intro-section">
+    <div class="intro-card">
+      <div class="intro-avatar">🌸</div>
+
+      <div class="intro-content">
+        <p class="intro-label">HELLO THERE! WELCOME TO MY WONDERFOLIO ♡</p>
+
+        <h1>Hi, I'm Thaaruni! <span>✿(◕‿◕)✿</span></h1>
+
+        <p class="intro-description">
+          A curious student exploring the fascinating world of
+          Natural Language Processing, one activity at a time!
+          <br>
+          A Data Science enthusiast pursuing M.Tech Integrated
+          Computer Science and Engineering (Data Science) at VIT.
+          <br>
+          This is my little corner where I bring together my achievements
+          and activities from my Natural Language Processing class.
+          <br>
+          Hope you have a wonderful time exploring my WONDERFOLIO!
+        </p>
+
+        <div class="intro-details">
+          <span>🎓 M.Tech Integrated CSE</span>
+          <span>💻 Data Science</span>
+          <span>🏫 VIT</span>
+          <span>📚 Natural Language Processing</span>
+        </div>
+
+        <p class="intro-quote">
+          "Learning something new every day, and collecting little
+          achievements along the way!" ✨
+        </p>
+      </div>
+
+      <div class="intro-decoration">✦</div>
+    </div>
+  </section>
+
+  <main class="page">
+    <header class="page-heading">
+      <p class="eyebrow">A tiny machine for big ideas</p>
+      <h1><span>♡</span> Thaaruni's Little Wonderfolio <span>♡</span></h1>
+      <p class="subtitle">Choose an activity, dispense a little discovery.</p>
+    </header>
+
+    <section class="machine" aria-label="NLP activity vending machine">
+      <div class="machine-top">
+        <div class="machine-brand">
+          <span class="brand-star">✦</span>
+          <div>
+            <p class="brand-name">WONDERFOLIO</p>
+            <p class="brand-tagline">LEARN SOMETHING LOVELY</p>
+          </div>
+          <span class="brand-star">✦</span>
+        </div>
+      </div>
+
+      <div class="machine-body">
+        <section class="product-window" aria-label="Available activities">
+          <div class="window-header">
+            <span>FRESHLY PACKED KNOWLEDGE</span>
+            <span class="window-light"><i></i> READY</span>
+          </div>
+          <div class="shelves" id="productShelves">
+            <div class="shelf-row">
+              <button class="product" data-activity="hands-on-session-1" aria-pressed="false">
+                <span class="product-art speech-art"><span>{ }</span></span>
+                <span class="product-number">01</span>
+                <span class="product-name">Hands-on Session 1</span>
+              </button>
+              <button class="product" data-activity="hands-on-session-2" aria-pressed="false">
+                <span class="product-art notebook-art"><span>WORD CLOUD</span><i></i></span>
+                <span class="product-number">02</span>
+                <span class="product-name">Hands-on Session 2</span>
+              </button>
+              <button class="product" data-activity="web-scraping" aria-pressed="false">
+                <span class="product-art tag-art"><span>WEB<br>SCRAPING</span></span>
+                <span class="product-number">03</span>
+                <span class="product-name">Web Scraping</span>
+              </button>
+            </div>
+            <div class="shelf-edge"></div>
+            <div class="shelf-row">
+              <button class="product" data-activity="fsa-in-tamil" aria-pressed="false">
+                <span class="product-art cards-art"><span>FSA</span><i>★</i></span>
+                <span class="product-number">04</span>
+                <span class="product-name">FSA in Tamil</span>
+              </button>
+              <button class="product" data-activity="definitions" aria-pressed="false">
+                <span class="product-art book-art"><span>DEFINE</span><i></i></span>
+                <span class="product-number">05</span>
+                <span class="product-name">Definitions</span>
+              </button>
+              <button class="product" data-activity="health-map" aria-pressed="false">
+                <span class="product-art magnify-art"><span>🗺️</span></span>
+                <span class="product-number">06</span>
+                <span class="product-name">Health Map</span>
+              </button>
+            </div>
+            <div class="shelf-edge"></div>
+            <div class="shelf-row shelf-row-last">
+              <button class="product" data-activity="translation" aria-pressed="false">
+                <span class="product-art puzzle-art"><span>த</span><i>✦</i></span>
+                <span class="product-number">07</span>
+                <span class="product-name">Translation</span>
+              </button>
+              <button class="product project-product" data-activity="project" aria-pressed="false">
+                <span class="product-art project-art">
+                  <span class="project-bubble">
+                    <span class="project-sparkle">•••</span>
+                  </span>
+                </span>
+                <span class="product-number">08</span>
+                <span class="product-name">Project</span>                
+              </button>
+              <button class="product" data-activity="stars" aria-pressed="false">
+                <span class="product-art folder-art"><span>☆</span><i></i></span>
+                <span class="product-number">09</span>
+                <span class="product-name">Stars</span>
+              </button>
+            </div>
+            <div class="shelf-edge"></div>
+          </div>
+          <p class="window-note">Tap a product or its product number to select it <span>♡</span></p>
+        </section>
+
+        <aside class="control-panel" aria-label="Vending machine controls">
+          <div class="display-frame">
+            <div class="digital-display" aria-live="polite">
+              <p class="display-label">NOW SELECTED</p>
+              <div class="display-icon" id="selectedIcon">✦</div>
+              <p class="display-name" id="selectedName">Choose an<br>activity</p>
+              <p class="display-code" id="selectedCode">NO. --</p>
+            </div>
+          </div>
+
+          <div class="keypad-label">ENTER PRODUCT NUMBER</div>
+          <div class="keypad" id="keypad">
+            <button data-number="1">1</button><button data-number="2">2</button><button data-number="3">3</button>
+            <button data-number="4">4</button><button data-number="5">5</button><button data-number="6">6</button>
+            <button data-number="7">7</button><button data-number="8">8</button><button data-number="9">9</button><button data-number="clear"
+              class="key-clear">C</button>
+          </div>
+          <div class="coin-slot" aria-hidden="true"><span></span></div>
+          <div class="dispense-label">READY WHEN YOU ARE</div>
+          <button class="dispense-button" id="dispenseButton">
+            <span class="button-shine"></span>
+            <span class="button-text">DISPENSE</span>
+            <span class="button-arrow">↓</span>
+          </button>
+          <p class="panel-footnote">ONE LITTLE CLICK<br>ONE BIG DISCOVERY</p>
+        </aside>
+      </div>
+
+      <div class="machine-lower">
+        <div class="lower-decoration"><span>✦</span><span>♡</span><span>✦</span></div>
+        <div class="collection-label">
+          <span class="collection-arrow">⌄</span>
+          <span>COLLECTION CHUTE</span>
+          <span class="collection-arrow">⌄</span>
+        </div>
+        <div class="collection-pit" id="collectionPit" aria-live="polite">
+          <div class="pit-empty" id="pitEmpty">
+            <span class="pit-sparkle">✧</span>
+            <p>Your activity will land here</p>
+            <small>Dispense an item to begin</small>
+          </div>
+        </div>
+      </div>
+      <div class="machine-foot">
+        <div class="machine-leg"></div>
+        <div class="machine-leg"></div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <span>MADE WITH LOVE & A LITTLE MAGIC</span>
+      <span>✦ NLP PORTFOLIO ✦</span>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
