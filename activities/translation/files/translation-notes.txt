@@ -1,0 +1,89 @@
+Original:
+அருள்நெறி அறிவைத் தரலாகும்
+அதுவே தமிழன் குரலாகும்
+பொருள்பெற யாரையும் புகழாது
+போற்றா தாரையும் இகழாது
+
+கொல்லா விரதம் குறியாகக்
+கொள்கை பொய்யா நெறியாக
+எல்லா மனிதரும் இன்புறவே
+என்றும் இசைந்திடும் அன்பறமே
+
+அன்பும் அறமும் ஊக்கிவிடும்
+அச்சம் என்பதைப் போக்கிவிடும்
+இன்பம் பொழிகிற வானொலியாம்
+எங்கள் தமிழெனும் தேன்மொழியாம்
+
+Meaning:
+The poem teaches us that Tamil is not merely a language of communication but also a language of wisdom, morality, love, and humanity. It encourages us to live truthfully, avoid violence, treat everyone fairly, overcome fear, and help all people live in happiness and harmony. It also expresses the poet's pride in Tamil and its timeless ethical values.
+
+
+Original Source:
+Author: Namakkal Kavignar V. Ramalingam Pillai (நாமக்கல் கவிஞர் வெ. இராமலிங்கனார்)
+Time of origin: Published in Namakkal Kavignar Paadalgal (நாமக்கல் கவிஞர் பாடல்கள்) in 1960
+
+LLM English Translation:
+It bestows the wisdom of righteous living;
+That is the voice of the Tamil people.
+It praises no one merely to gain wealth,
+Nor does it condemn those who offer no praise.
+
+Non-violence is its guiding vow,
+Truthfulness is its unwavering principle.
+So that every human being may live in joy,
+It forever upholds the virtue of loving kindness.
+ 
+It nurtures love and righteousness,
+And drives away fear.
+It is a heavenly voice that showers happiness,
+Our Tamil language, sweet as honey.
+
+Translation from another source:
+Source: Tamil  Teacher
+
+It provides us graceful and righteous knowledge,
+That is the voice of Tamil people.
+Tamil people won't praise anyone mearly to gain wealth,
+Neither will they condemn those who dont offer praise. 
+
+To live with Non-violence as a goal, 
+And with Truthfulness as a principle,
+For everyone to live happily,
+Love and virtue helps us.
+
+It encourages love and virtue,
+It helps overcome all fears,
+It is a heavenly voice that showers happiness,
+Our Tamil language, which is as sweet as honey.
+
+Difference Between Both Translations:
+
+- Cosine similarity score: 55.03%
+- Lexical Similarity: Medium
+- Semantic Similarity: High
+- Cultural Similarity: High
+
+Difference: The LLM translation is more descriptive and poetic, emphasizing unwavering principles and loving-kindness, while the human translation uses simpler language and focuses on the ethical values taught through the Tamil language and upheld by the Tamil people.
+
+Rubrics:
+LLM Translation
+1. Translation Accuracy: 4/5
+2. Lexical Faithfulness: 4/5
+3. Semantic Similarity: 4/5
+4. Cultural Preservation: 4/5
+5. Grammatical Correctness: 5/5
+6. Fluency and Readability: 4.5/5
+7. Poetic Quality: 4/5
+Total Score: 29.5/35
+Overall Score: 84.29%
+
+Human Translation:
+1. Translation Accuracy: 4.5/5
+2. Lexical Faithfulness: 4.5/5
+3. Semantic Similarity: 4.5/5
+4. Cultural Preservation: 5/5
+5. Grammatical Correctness: 3.5/5
+6. Fluency and Readability: 4/5
+7. Poetic Quality: 4.5/5
+Total Score: 30.5/35
+Overall Score: 87.14%

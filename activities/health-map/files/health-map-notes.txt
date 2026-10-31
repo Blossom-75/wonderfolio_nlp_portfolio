@@ -1,0 +1,29 @@
+HEALTH MAP
+Idea:
+A location-based, disease-aware healthcare recommendation system that identifies and ranks nearby healthcare facilities based on the user's location, disease-specific treatment capabilities, and travel accessibility.
+
+Research Gaps:
+1. Disease-specific facility matching Identifies healthcare centres that provide services relevant to the particular disease.
+2. Treatment availability: Considers verified diagnostic and treatment capabilities of the healthcare center 
+3. Travel accessibility: Ranks suitable facilities based on road distance and estimated travel time.
+
+NLP Usage:
+1. Extract healthcare services and treatment capabilities from facility descriptions and other textual sources.
+2. Identify disease names, medical services, and user search intent from natural-language queries.
+3. Match different terms describing equivalent diseases or healthcare services using semantic similarity.
+
+NLP-Specific Skills:
+
+1. Named Entity Recognition (NER)
+2. Information Extraction
+3. Semantic Similarity
+4. Text Classification
+ 
+Team members:
+1. Kondrarajender
+2. Thaaruni
+3. Harishankar
+4. Lokesh
+5. Varshini
+7. Sathya sree
+8. Sharun

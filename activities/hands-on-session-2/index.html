@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4c9dc">
+  <title>Hands-on Session 2 | Little NLP Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <a class="back-link" href="../../index.html">← Back to vending machine</a>
+    <span class="page-label">LITTLE NLP LAB · ACTIVITY 02</span>
+  </header>
+  <main class="activity-container">
+    <section class="hero">
+      <div class="hero-icon">✿</div>
+      <p class="eyebrow">ACTIVITY 02</p>
+      <h1>Hands-on Session 2</h1>
+      <p class="hero-description">Name classification and text representation. The notebook works with the NLTK names
+        corpus to build a simple gender classifier using the final letter of a name. It also introduces binary
+        bag-of-words features and cosine similarity for comparing short text documents.</p>
+      <span class="tag">NLTK · Naive Bayes · CountVectorizer</span>
+    </section>
+    <section class="content-card">
+      <h2>Objectives</h2>
+      <ul>
+        <li>Load and inspect the NLTK names corpus.</li>
+        <li>Create labelled male and female name examples.</li>
+        <li>Represent each name using its final character as a feature.</li>
+        <li>Train and test an NLTK NaiveBayesClassifier.</li>
+        <li>Build binary bag-of-words features using CountVectorizer.</li>
+        <li>Calculate cosine similarity between two text descriptions.</li>
+      </ul>
+    </section>
+    <section class="content-card">
+      <h2>Concepts & Implementation</h2>
+      <div class="step"><span class="step-number">01</span>
+        <div>
+          <h3>Load the names corpus</h3>
+          <p>Download the NLTK names resource and inspect the number and sample of names.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">02</span>
+        <div>
+          <h3>Prepare labelled data</h3>
+          <p>Combine names from male.txt and female.txt with their corresponding labels.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">03</span>
+        <div>
+          <h3>Extract features</h3>
+          <p>Represent each name with a last_letter feature.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">04</span>
+        <div>
+          <h3>Train a classifier</h3>
+          <p>Shuffle the feature sets, split training and testing data, and train a Naive Bayes classifier.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">05</span>
+        <div>
+          <h3>Represent documents</h3>
+          <p>Use CountVectorizer(binary=True) to learn a vocabulary and transform text into vectors.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">06</span>
+        <div>
+          <h3>Compare documents</h3>
+          <p>Use cosine_similarity() to compare vector representations of two OCR-related sentences.</p>
+        </div>
+      </div>
+    </section>
+    <section class="content-card">
+      <h2>Activity Materials</h2>
+      <p>Click an image to view it at full size.</p>
+      <div class="image-grid">
+        <figure class="image-card"><a href="assets/session-date.png" target="_blank" rel="noopener"><img
+              src="assets/session-date.png" alt="Session record" loading="lazy"></a>
+          <figcaption>Session record</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="content-card">
+      <h2>Learning Outcomes</h2>
+      <ul>
+        <li>Prepared labelled examples from a built-in corpus.</li>
+        <li>Implemented a simple feature-based Naive Bayes classification workflow.</li>
+        <li>Explored binary bag-of-words representation.</li>
+        <li>Used cosine similarity to compare document vectors.</li>
+        <li>Observed a basic URL text download example using urllib.request.</li>
+      </ul>
+    </section>
+    <section class="content-card">
+      <h2>Download Activity Files</h2>
+      <div class="file-list"><a class="file-link" href="files/NLP_HANDS_ON_SESSION_2.ipynb" download><span>Jupyter
+            Notebook<small>Download the original notebook.</small></span><span class="file-arrow">↓</span></a></div>
+    </section>
+    <p class="note">Content on this page is organised from the materials supplied in the activity folder. Any
+      interpretation beyond those materials has been kept to a minimum.</p>
+  </main>
+  <footer>Made with ♡ · NLP Learning Portfolio<br><a href="../../index.html">Return to Little NLP Lab ↑</a></footer>
+</body>
+
+</html>

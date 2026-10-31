@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4c9dc">
+  <title>Web Scraping | Little NLP Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <a class="back-link" href="../../index.html">← Back to vending machine</a>
+    <span class="page-label">LITTLE NLP LAB · ACTIVITY 03</span>
+  </header>
+  <main class="activity-container">
+    <section class="hero">
+      <div class="hero-icon">⌘</div>
+      <p class="eyebrow">ACTIVITY 03</p>
+      <h1>Web Scraping</h1>
+      <p class="hero-description">Collecting online text for language analysis. The activity sets up a Python workflow
+        for downloading web pages and collecting article text from Meduza. It uses the author Ivan Golunov as the
+        analysis focus and imports tools for text processing, readability, vectorisation, dimensionality reduction and
+        similarity analysis.</p>
+      <span class="tag">Python · Requests · BeautifulSoup · TF-IDF</span>
+    </section>
+    <section class="content-card">
+      <h2>Objectives</h2>
+      <ul>
+        <li>Install and import the libraries used in the notebook.</li>
+        <li>Download a source page using requests.</li>
+        <li>Parse HTML with BeautifulSoup and collect article links.</li>
+        <li>Extract article metadata and body text.</li>
+        <li>Prepare text for statistical and NLP analysis.</li>
+        <li>Explore TF-IDF, PCA, scaling and cosine similarity in the analysis workflow.</li>
+      </ul>
+    </section>
+    <section class="content-card">
+      <h2>Concepts & Implementation</h2>
+      <div class="step"><span class="step-number">01</span>
+        <div>
+          <h3>Prepare the environment</h3>
+          <p>Install and import requests, BeautifulSoup, pandas, NumPy, NLTK, textstat and scikit-learn tools.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">02</span>
+        <div>
+          <h3>Configure the source</h3>
+          <p>Set the author focus to Ivan Golunov and specify the Meduza source page used by the notebook.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">03</span>
+        <div>
+          <h3>Download the page</h3>
+          <p>Use requests.get() with a user-agent header and timeout handling.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">04</span>
+        <div>
+          <h3>Collect links</h3>
+          <p>Parse anchor elements and keep unique Meduza links while excluding the source page itself.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">05</span>
+        <div>
+          <h3>Extract article content</h3>
+          <p>The notebook defines a scraping workflow to retrieve page text and article metadata.</p>
+        </div>
+      </div>
+      <div class="step"><span class="step-number">06</span>
+        <div>
+          <h3>Prepare for analysis</h3>
+          <p>The notebook imports Counter, TfidfVectorizer, PCA, StandardScaler and cosine_similarity for downstream
+            analysis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-card">
+      <h2>Learning Outcomes</h2>
+      <ul>
+        <li>Understood the role of HTTP requests in collecting web content.</li>
+        <li>Explored HTML parsing with BeautifulSoup.</li>
+        <li>Saw how article links and page content can be collected programmatically.</li>
+        <li>Identified NLP and machine-learning tools used to prepare and compare scraped text.</li>
+      </ul>
+    </section>
+    <section class="content-card">
+      <h2>Download Activity Files</h2>
+      <div class="file-list"><a class="file-link" href="files/Web_Scraping_NLP_Activity.ipynb" download><span>Jupyter
+            Notebook<small>Download the original web-scraping notebook.</small></span><span
+            class="file-arrow">↓</span></a></div>
+    </section>
+    <p class="note">Content on this page is organised from the materials supplied in the activity folder. Any
+      interpretation beyond those materials has been kept to a minimum.</p>
+  </main>
+  <footer>Made with ♡ · NLP Learning Portfolio<br><a href="../../index.html">Return to Little NLP Lab ↑</a></footer>
+</body>
+
+</html>

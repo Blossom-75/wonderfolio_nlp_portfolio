@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4c9dc">
+    <title>Translation | Little NLP Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="page-header">
+    <a class="back-link" href="../../index.html">← Back to vending machine</a>
+    <span class="page-label">LITTLE NLP LAB · ACTIVITY 07</span>
+</header>
+
+<main class="activity-container">
+
+    <section class="hero">
+        <div class="hero-icon">文</div>
+        <p class="eyebrow">ACTIVITY 07</p>
+        <h1>Tamil Poem Translation</h1>
+        <p class="hero-description">
+            Comparing an LLM-generated English translation with another
+            English translation of a Tamil poem, analysing semantic,
+            lexical and cultural similarities.
+        </p>
+        <span class="tag">Tamil · Machine Translation · Similarity Evaluation</span>
+    </section>
+
+    <section class="content-card">
+        <h2>Original Tamil Poem</h2>
+
+        <div class="poem">
+            <p>அருள்நெறி அறிவைத் தரலாகும்</p>
+            <p>அதுவே தமிழன் குரலாகும்</p>
+            <p>பொருள்பெற யாரையும் புகழாது</p>
+            <p>போற்றா தாரையும் இகழாது</p>
+
+            <br>
+
+            <p>கொல்லா விரதம் குறியாகக்</p>
+            <p>கொள்கை பொய்யா நெறியாக</p>
+            <p>எல்லா மனிதரும் இன்புறவே</p>
+            <p>என்றும் இசைந்திடும் அன்பறமே</p>
+
+            <br>
+
+            <p>அன்பும் அறமும் ஊக்கிவிடும்</p>
+            <p>அச்சம் என்பதைப் போக்கிவிடும்</p>
+            <p>இன்பம் பொழிகிற வானொலியாம்</p>
+            <p>எங்கள் தமிழெனும் தேன்மொழியாம்</p>
+        </div>
+    </section>
+
+    <section class="content-card">
+        <h2>Meaning of the Poem</h2>
+        <p>
+            The poem teaches us that Tamil is not merely a language of
+            communication but also a language of wisdom, morality, love
+            and humanity. It encourages us to live truthfully, avoid
+            violence, treat everyone fairly, overcome fear and help all
+            people live in happiness and harmony.
+        </p>
+        <p>
+            It also expresses the poet's pride in Tamil and its timeless
+            ethical values.
+        </p>
+    </section>
+
+    <section class="content-card">
+        <h2>Original Source</h2>
+        <p><strong>Author:</strong> Namakkal Kavignar V. Ramalingam Pillai</p>
+        <p><strong>Tamil name:</strong> நாமக்கல் கவிஞர் வெ. இராமலிங்கனார்</p>
+        <p><strong>Time of origin:</strong> Published in Namakkal Kavignar Paadalgal in 1960.</p>
+    </section>
+
+    <section class="content-card">
+        <h2>LLM English Translation</h2>
+
+        <div class="poem english-poem">
+            <p>It bestows the wisdom of righteous living;</p>
+            <p>That is the voice of the Tamil people.</p>
+            <p>It praises no one merely to gain wealth,</p>
+            <p>Nor does it condemn those who offer no praise.</p>
+
+            <br>
+
+            <p>Non-violence is its guiding vow,</p>
+            <p>Truthfulness is its unwavering principle.</p>
+            <p>So that every human being may live in joy,</p>
+            <p>It forever upholds the virtue of loving kindness.</p>
+
+            <br>
+
+            <p>It nurtures love and righteousness,</p>
+            <p>And drives away fear.</p>
+            <p>It is a heavenly voice that showers happiness,</p>
+            <p>Our Tamil language, sweet as honey.</p>
+        </div>
+    </section>
+
+    <section class="content-card">
+        <h2>Translation from Another Source</h2>
+        <p class="section-description">Source: Tamil Teacher</p>
+
+        <div class="poem english-poem">
+            <p>It provides us graceful and righteous knowledge,</p>
+            <p>That is the voice of Tamil people.</p>
+            <p>Tamil people won't praise anyone merely to gain wealth,</p>
+            <p>Neither will they condemn those who don't offer praise.</p>
+
+            <br>
+
+            <p>To live with Non-violence as a goal,</p>
+            <p>And with Truthfulness as a principle,</p>
+            <p>For everyone to live happily,</p>
+            <p>Love and virtue helps us.</p>
+
+            <br>
+
+            <p>It encourages love and virtue,</p>
+            <p>It helps overcome all fears,</p>
+            <p>It is a heavenly voice that showers happiness,</p>
+            <p>Our Tamil language, which is as sweet as honey.</p>
+        </div>
+    </section>
+
+    <section class="content-card">
+        <h2>Translation Comparison</h2>
+
+        <div class="comparison-score">
+            <p class="score-label">Cosine Similarity Score</p>
+            <h3>55.03%</h3>
+        </div>
+
+        <div class="concept-grid">
+            <div class="concept-item">
+                <span>01</span>
+                <h3>Lexical Similarity</h3>
+                <p>Medium</p>
+            </div>
+
+            <div class="concept-item">
+                <span>02</span>
+                <h3>Semantic Similarity</h3>
+                <p>High</p>
+            </div>
+
+            <div class="concept-item">
+                <span>03</span>
+                <h3>Cultural Similarity</h3>
+                <p>High</p>
+            </div>
+        </div>
+
+        <h3 class="subheading">Observed Differences</h3>
+        <p>
+            The LLM translation is more descriptive and poetic,
+            emphasizing unwavering principles and loving-kindness.
+            The human translation uses simpler language and focuses
+            on the ethical values taught through the Tamil language
+            and upheld by the Tamil people.
+        </p>
+    </section>
+
+    <section class="content-card">
+        <h2>Evaluation Rubric</h2>
+
+        <h3 class="subheading">LLM Translation</h3>
+
+        <div class="rubric-list">
+            <div><span>Translation Accuracy</span><strong>4/5</strong></div>
+            <div><span>Lexical Faithfulness</span><strong>4/5</strong></div>
+            <div><span>Semantic Similarity</span><strong>4/5</strong></div>
+            <div><span>Cultural Preservation</span><strong>4/5</strong></div>
+            <div><span>Grammatical Correctness</span><strong>5/5</strong></div>
+            <div><span>Fluency and Readability</span><strong>4.5/5</strong></div>
+            <div><span>Poetic Quality</span><strong>4/5</strong></div>
+        </div>
+
+        <div class="total-score">
+            <span>Total Score</span>
+            <strong>29.5/35 · 84.29%</strong>
+        </div>
+
+        <h3 class="subheading">Human Translation</h3>
+
+        <div class="rubric-list">
+            <div><span>Translation Accuracy</span><strong>4.5/5</strong></div>
+            <div><span>Lexical Faithfulness</span><strong>4.5/5</strong></div>
+            <div><span>Semantic Similarity</span><strong>4.5/5</strong></div>
+            <div><span>Cultural Preservation</span><strong>5/5</strong></div>
+            <div><span>Grammatical Correctness</span><strong>3.5/5</strong></div>
+            <div><span>Fluency and Readability</span><strong>4/5</strong></div>
+            <div><span>Poetic Quality</span><strong>4.5/5</strong></div>
+        </div>
+
+        <div class="total-score">
+            <span>Total Score</span>
+            <strong>30.5/35 · 87.14%</strong>
+        </div>
+    </section>
+
+    <section class="content-card">
+        <h2>Overall Comparison</h2>
+        <p>
+            Based on the supplied evaluation rubric, the human translation
+            receives a total score of 87.14%, while the LLM translation
+            receives 84.29%. The LLM translation scores higher in grammatical
+            correctness and fluency, while the human translation scores
+            higher in lexical faithfulness, semantic similarity and cultural
+            preservation.
+        </p>
+    </section>
+
+    <section class="content-card">
+        <h2>Learning Outcomes</h2>
+        <ul>
+            <li>Compared two English translations of a Tamil poem.</li>
+            <li>Observed differences in lexical choices and poetic style.</li>
+            <li>Explored semantic and cultural similarity in translation.</li>
+            <li>Reviewed cosine similarity and rubric-based evaluation.</li>
+            <li>Understood the importance of preserving meaning and cultural context during translation.</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    Made with ♡ · NLP Learning Portfolio
+    <br>
+    <a href="../../index.html">Return to Little NLP Lab ↑</a>
+</footer>
+
+</body>
+</html>
