@@ -4,265 +4,332 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algospeak Evolution Engine</title>
+    <title>Algospeak Evolution Engine | My Project</title>
     <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <a href="../../index.html">← Back to the vending machine</a>
+    <header class="project-header">
+        <a href="../../index.html" class="back-link">← Back to my portfolio</a>
+        <p class="eyebrow">MY NLP PROJECT ♡</p>
+        <h1>Computational Analysis of ALGOSPEAK Formation Using Unsupervised Clustering</h1>
+        <p class="subtitle">
+            Exploring how coded expressions evolve on social media through
+            linguistic feature extraction and unsupervised clustering.
+        </p>
     </header>
 
-    <main>
+    <main class="project-container">
 
-        <section class="hero">
-            <div class="hero-icon">æ</div>
-            <p class="eyebrow">NATURAL LANGUAGE PROCESSING PROJECT</p>
-            <h1>Algospeak Evolution Engine</h1>
+        <section class="project-section">
+            <h2>🎀 Motivation</h2>
             <p>
-                Exploring how language evolves on social media through
-                creative word modifications and alternative expressions.
+                The increasing use of social media content moderation encourages
+                users to modify words using coded expressions, emojis,
+                abbreviations, and spelling variations. This project aims to
+                computationally analyze these evolving expressions and identify
+                their linguistic formation patterns.
             </p>
-            <span class="hero-tag">NLP · Language Evolution · Text Analysis</span>
         </section>
 
-        <section class="content-section">
-            <div class="section-heading">
-                <span class="section-icon">🎯</span>
-                <div>
-                    <p class="eyebrow">WHAT WE AIM TO ACHIEVE</p>
-                    <h2>Project Objectives</h2>
-                </div>
-            </div>
-
-            <div class="content-card">
-                <ol class="objective-list">
-                    <li>To identify and detect algospeak expressions used in online communication.</li>
-                    <li>To analyse how words and phrases are modified to avoid automated content moderation.</li>
-                    <li>To examine linguistic patterns, including orthographic, phonetic, morphological and semantic
-                        changes.</li>
-                    <li>To study the origin and evolution of algospeak expressions across digital platforms.</li>
-                    <li>To group and compare similar algospeak expressions based on their linguistic characteristics.
-                    </li>
-                    <li>To understand how social media users adapt language in response to content moderation
-                        algorithms.</li>
-                </ol>
-            </div>
+        <section class="project-section">
+            <h2>🔍 Existing Gap</h2>
+            <p>
+                Existing studies mainly focus on qualitative analysis, user
+                motivations, and algospeak decoding using predefined categories
+                or Large Language Models. There is limited exploration of
+                unsupervised clustering based on multiple linguistic features.
+            </p>
+            <p>
+                This motivated the development of a system that automatically
+                categorizes algospeak expressions and supports interactive
+                exploration.
+            </p>
         </section>
 
-        <section class="content-section">
-            <div class="section-heading">
-                <span class="section-icon">📚</span>
-                <div>
-                    <p class="eyebrow">THE NLP BEHIND THE PROJECT</p>
-                    <h2>Concepts Used</h2>
-                </div>
-            </div>
+        <section class="project-section">
+            <h2>🏗️ Architecture</h2>
 
-            <div class="concept-grid">
-
-                <div class="concept-card">
-                    <span>💬</span>
-                    <h3>Algospeak</h3>
-                    <p>Language modifications used by social media users to communicate ideas while avoiding automated
-                        content moderation.</p>
-                </div>
-
-                <div class="concept-card">
-                    <span>🔤</span>
-                    <h3>Orthographic Variation</h3>
-                    <p>Changes in the spelling or written form of words, including replacing letters with numbers or
-                        special characters.</p>
-                </div>
-
-                <div class="concept-card">
-                    <span>🔊</span>
-                    <h3>Phonetic Variation</h3>
-                    <p>Modifying words based on pronunciation by using alternative spellings or sound-alike expressions.
-                    </p>
-                </div>
-
-                <div class="concept-card">
-                    <span>🧩</span>
-                    <h3>Morphological Variation</h3>
-                    <p>Changing word structures through prefixes, suffixes, abbreviations or other word-formation
-                        techniques.</p>
-                </div>
-
-                <div class="concept-card">
-                    <span>🌷</span>
-                    <h3>Semantic Variation</h3>
-                    <p>Using alternative words or expressions to convey the same or a related meaning.</p>
-                </div>
-
-                <div class="concept-card">
-                    <span>📊</span>
-                    <h3>Feature Extraction</h3>
-                    <p>Identifying and extracting linguistic characteristics from text for further analysis.</p>
-                </div>
-
-                <div class="concept-card">
-                    <span>🫧</span>
-                    <h3>Phrase Clustering</h3>
-                    <p>Grouping similar expressions based on their linguistic features to identify relationships between
-                        phrases.</p>
-                </div>
-
-                <div class="concept-card">
-                    <span>🌱</span>
-                    <h3>Language Evolution</h3>
-                    <p>Studying how expressions originate, change and develop new meanings over time.</p>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="content-section">
-            <div class="section-heading">
-                <span class="section-icon">⚙️</span>
-                <div>
-                    <p class="eyebrow">HOW THE PROJECT WORKS</p>
-                    <h2>Implementation</h2>
-                </div>
-            </div>
-
-            <div class="content-card">
-                <div class="implementation-list">
-
-                    <div class="implementation-step">
-                        <span class="step-number">01</span>
-                        <div>
-                            <h3>Data Collection</h3>
-                            <p>Collect text data containing social media expressions and potential algospeak terms.</p>
-                        </div>
-                    </div>
-
-                    <div class="implementation-step">
-                        <span class="step-number">02</span>
-                        <div>
-                            <h3>Text Preprocessing</h3>
-                            <p>Clean and prepare the collected text by handling unnecessary characters and normalising
-                                expressions.</p>
-                        </div>
-                    </div>
-
-                    <div class="implementation-step">
-                        <span class="step-number">03</span>
-                        <div>
-                            <h3>Feature Extraction</h3>
-                            <p>Extract orthographic, phonetic, morphological and semantic characteristics from the
-                                expressions.</p>
-                        </div>
-                    </div>
-
-                    <div class="implementation-step">
-                        <span class="step-number">04</span>
-                        <div>
-                            <h3>Linguistic Analysis</h3>
-                            <p>Analyse the extracted features to understand the different ways in which words and
-                                phrases are modified.</p>
-                        </div>
-                    </div>
-
-                    <div class="implementation-step">
-                        <span class="step-number">05</span>
-                        <div>
-                            <h3>Similarity Analysis</h3>
-                            <p>Compare expressions using their linguistic characteristics to identify related phrases.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="implementation-step">
-                        <span class="step-number">06</span>
-                        <div>
-                            <h3>Phrase Clustering</h3>
-                            <p>Group similar expressions to discover relationships and variations among algospeak terms.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="implementation-step">
-                        <span class="step-number">07</span>
-                        <div>
-                            <h3>Evolution Analysis</h3>
-                            <p>Examine relationships between expressions to understand how algospeak terms develop and
-                                change.</p>
-                        </div>
-                    </div>
-
+            <div class="architecture">
+                <div class="architecture-step">Dataset Collection</div>
+                <span>↓</span>
+                <div class="architecture-step">Preprocessing and Normalization</div>
+                <span>↓</span>
+                <div class="architecture-step">Linguistic Feature Extraction</div>
+                <span>↓</span>
+                <div class="architecture-step">PCA Dimensionality Reduction</div>
+                <span>↓</span>
+                <div class="architecture-step">K-Means / Hierarchical Clustering</div>
+                <span>↓</span>
+                <div class="architecture-step">Cluster Evaluation</div>
+                <span>↓</span>
+                <div class="architecture-step">Visualization and Analysis</div>
+                <span>↓</span>
+                <div class="architecture-step">Interactive Website</div>
+                <div class="architecture-outputs">
+                    Expression Decoding · New Expression Analysis
                 </div>
             </div>
         </section>
 
-        <section class="content-section">
-            <div class="section-heading">
-                <span class="section-icon">📸</span>
-                <div>
-                    <p class="eyebrow">A FEW PROJECT MEMORIES</p>
-                    <h2>Project Gallery</h2>
-                </div>
+        <section class="project-section">
+            <h2>💻 Complete Tech Stack</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Technology</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programming Language</td>
+                            <td>Python</td>
+                        </tr>
+                        <tr>
+                            <td>NLP</td>
+                            <td>NLTK, Linguistic Feature Extraction</td>
+                        </tr>
+                        <tr>
+                            <td>Data Processing</td>
+                            <td>Pandas, NumPy</td>
+                        </tr>
+                        <tr>
+                            <td>Machine Learning</td>
+                            <td>Scikit-learn</td>
+                        </tr>
+                        <tr>
+                            <td>Dimensionality Reduction</td>
+                            <td>PCA</td>
+                        </tr>
+                        <tr>
+                            <td>Clustering</td>
+                            <td>K-Means, Hierarchical Clustering</td>
+                        </tr>
+                        <tr>
+                            <td>Evaluation</td>
+                            <td>Elbow Method, Silhouette Score</td>
+                        </tr>
+                        <tr>
+                            <td>Visualization</td>
+                            <td>Matplotlib, Seaborn</td>
+                        </tr>
+                        <tr>
+                            <td>Frontend</td>
+                            <td>HTML, CSS, JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>Website</td>
+                            <td>Interactive Algospeak Decoding Interface</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </section>
 
-            <div class="photo-grid">
-                <div class="photo-card">
-                    <img src="assets/photo1.jpeg" alt="Algospeak project photograph 1">
-                    <p>Project Moment 01</p>
+        <section class="project-section">
+            <h2>📊 Dataset Used</h2>
+
+            <div class="dataset-card">
+                <p><strong>Dataset:</strong> Algospeak Dataset from Zenodo</p>
+                <p><strong>Source:</strong> TikTok</p>
+                <p><strong>Size:</strong> 550 algospeak expressions</p>
+                <p><strong>Collection Period:</strong> March 2023 – August 2024</p>
+                <p><strong>Data:</strong> Algospeak expressions and decoded meanings</p>
+
+                <a href="https://zenodo.org/doi/10.5281/zenodo.18176980" target="_blank" rel="noopener noreferrer"
+                    class="project-button">
+                    View Dataset ↗
+                </a>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h2>✨ Prompts Used for Website Construction</h2>
+
+            <ul class="prompt-list">
+                <li>Create an interactive website for an Algospeak Evolution Engine.</li>
+                <li>Design a user-friendly interface to decode algospeak expressions.</li>
+                <li>Provide input fields for entering words or phrases and display their decoded meanings.</li>
+                <li>Display linguistic categories and cluster assignments for algospeak expressions.</li>
+                <li>Create visualizations for algospeak formation patterns and cluster distributions.</li>
+                <li>Design a responsive website using HTML, CSS, and JavaScript.</li>
+            </ul>
+
+            
+        </section>
+
+        <section class="project-section">
+            <h2>🧠 NLP Pipeline</h2>
+
+            <div class="pipeline">
+                <div class="pipeline-step">
+                    <span>01</span>
+                    <div>
+                        <h3>Raw Dataset</h3>
+                        <p>Collect algospeak expressions and their decoded meanings.</p>
+                    </div>
                 </div>
 
-                <div class="photo-card">
-                    <img src="assets/photo2.jpeg" alt="Algospeak project photograph 2">
-                    <p>Project Moment 02</p>
+                <div class="pipeline-step">
+                    <span>02</span>
+                    <div>
+                        <h3>Text Preprocessing</h3>
+                        <p>Preprocess and normalize the expressions.</p>
+                    </div>
                 </div>
 
-                <div class="photo-card">
-                    <img src="assets/photo3.jpeg" alt="Algospeak project photograph 3">
-                    <p>Project Moment 03</p>
+                <div class="pipeline-step">
+                    <span>03</span>
+                    <div>
+                        <h3>Linguistic Feature Extraction</h3>
+                        <p>Extract 14 linguistic features covering orthographic,
+                            phonetic, morphological, and semantic characteristics.</p>
+                    </div>
                 </div>
 
-                <div class="photo-card">
-                    <img src="assets/photo4.jpeg" alt="Algospeak project photograph 4">
-                    <p>Project Moment 04</p>
+                <div class="pipeline-step">
+                    <span>04</span>
+                    <div>
+                        <h3>Feature Scaling and PCA</h3>
+                        <p>Scale the features and reduce dimensionality using PCA.</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <span>05</span>
+                    <div>
+                        <h3>K-Means Clustering</h3>
+                        <p>Group expressions into five clusters.</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <span>06</span>
+                    <div>
+                        <h3>Evaluation</h3>
+                        <p>Evaluate clustering using the Elbow Method and
+                            Silhouette Score.</p>
+                    </div>
+                </div>
+
+                <div class="pipeline-step">
+                    <span>07</span>
+                    <div>
+                        <h3>Visualization and Interactive Decoding</h3>
+                        <p>Visualize cluster patterns and explore decoded
+                            expressions through the website.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="content-section">
-            <div class="section-heading">
-                <span class="section-icon">🌟</span>
-                <div>
-                    <p class="eyebrow">WHAT I LEARNED</p>
-                    <h2>Learning Outcomes</h2>
-                </div>
-            </div>
+        <section class="project-section">
+            <h2>👩🏻‍💻 Users, Inputs and Outputs</h2>
 
-            <div class="content-card">
-                <ol class="objective-list">
-                    <li>Understand the concept of algospeak and its role in digital communication.</li>
-                    <li>Apply NLP techniques to identify and analyse modified words and expressions.</li>
-                    <li>Explore orthographic, phonetic, morphological and semantic language variations.</li>
-                    <li>Understand how text preprocessing and feature extraction support language analysis.</li>
-                    <li>Explore phrase clustering and similarity-based techniques to identify related expressions.</li>
-                    <li>Gain practical experience in analysing language evolution and the relationship between online
-                        communication and automated moderation.</li>
-                </ol>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Users</td>
+                            <td>Researchers, students, social media users, NLP enthusiasts</td>
+                        </tr>
+                        <tr>
+                            <td>Input</td>
+                            <td>Algospeak words, phrases, symbols, abbreviations, emojis</td>
+                        </tr>
+                        <tr>
+                            <td>Input Format</td>
+                            <td>Text strings entered through the website</td>
+                        </tr>
+                        <tr>
+                            <td>Dataset Input</td>
+                            <td>CSV containing expressions and decoded meanings</td>
+                        </tr>
+                        <tr>
+                            <td>Processing</td>
+                            <td>Feature extraction, normalization, PCA, clustering</td>
+                        </tr>
+                        <tr>
+                            <td>Output</td>
+                            <td>Decoded meaning, linguistic category, cluster assignment</td>
+                        </tr>
+                        <tr>
+                            <td>Visualization</td>
+                            <td>Cluster distributions and linguistic pattern charts</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
-        <section class="closing">
-            <h2>Every word has a story to tell! ♡</h2>
-            <p>Exploring language, discovering patterns and learning something new along the way.</p>
+        <section class="project-section">
+            <h2>📁 Project Files</h2>
+            <p>
+                Explore the implementation notebook and project presentation.
+            </p>
+
+            <div class="file-grid">
+                <a href="assets/algospeak_notebook.ipynb" download class="file-card">
+                    <span class="file-icon">🐍</span>
+                    <h3>Jupyter Notebook</h3>
+                    <p>View or download the project implementation.</p>
+                    <span class="file-link">Download .ipynb ↓</span>
+                </a>
+
+                <a href="assets/project_presentation.pptx" download class="file-card">
+                    <span class="file-icon">🎞️</span>
+                    <h3>Project Presentation</h3>
+                    <p>View or download the project PPT.</p>
+                    <span class="file-link">Download .pptx ↓</span>
+                </a>
+            </div>
         </section>
+
+        <section class="project-section">
+            <h2>📸 Demo Gallery</h2>
+            <p>Snapshots from the project implementation and website demo.</p>
+
+            <div class="demo-gallery">
+                <img src="assets/demo1.jpeg" alt="Project demo screenshot 1">
+                <img src="assets/demo2.jpeg" alt="Project demo screenshot 2">
+                <img src="assets/demo3.jpeg" alt="Project demo screenshot 3">
+                <img src="assets/demo4.jpeg" alt="Project demo screenshot 4">
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h2>🌷 References</h2>
+
+            <ol class="references-list">
+                <li>Klug et al. (2023) – How Algorithm Awareness Impacts Algospeak Use on TikTok.</li>
+                <li>Steen et al. (2023) – You Can (Not) Say What You Want.</li>
+                <li>Cho and Kim (2021) – Google-trickers, Yaminjeongeum, and Leetspeak.</li>
+                <li>Fillies and Paschke (2024) – Simple LLM-Based Approach to Counter Algospeak.</li>
+                <li>Hu et al. (2024) – Uncovering and Mitigating the Hidden Chasm.</li>
+                <li>Ungless et al. (2025) – Le$bean or Lesbian?</li>
+                <li>Parnell (2023) – Algospeak and Algo-Design in Platformed Book Publishing.</li>
+                <li>Pateda et al. (2025) – Algospeak: The Evolution of Language in the Age of Social Media in Indonesia.
+                </li>
+                <li>Blažević and Žuvela Blažević (2025) – Insights into Algospeak and Sensitive Language on TikTok.</li>
+                <li>Zenodo – Algospeak Dataset.</li>
+            </ol>
+        </section>
+
+        <footer class="project-footer">
+            <p>Every expression has a story to tell! ♡</p>
+        </footer>
 
     </main>
-
-    <footer>
-        Made with love and curiosity ♡
-    </footer>
 
 </body>
 
